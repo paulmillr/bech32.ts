@@ -1,6 +1,6 @@
 # micro-bech32
 
-Awesome minimal Bech32 module, a fork of `bech32` with following changes:
+Awesome minimal Bech32 module, a fork of [`bech32`](https://github.com/bitcoinjs/bech32) with following changes:
 
 - Removed all dependencies, so it's more secure now
 - Works in browser now, with Uint8Arrays

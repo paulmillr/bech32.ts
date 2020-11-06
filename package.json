@@ -1,7 +1,7 @@
 {
-  "name": "bech32",
-  "version": "1.1.4",
-  "description": "Bech32 encoding / decoding",
+  "name": "micro-bech32",
+  "version": "1.1.5",
+  "description": "Fork of bech32: no dependencies, cross-platform, refactored.",
   "keywords": [
     "base32",
     "bech32",
@@ -29,10 +29,11 @@
     "typescript": "^3.9.5"
   },
   "repository": {
-    "url": "http://github.com/bitcoinjs/bech32",
+    "url": "http://github.com/paulmillr/micro-bech32",
     "type": "git"
   },
   "scripts": {
+    "build": "tsc -d",
     "coverage": "nyc --check-coverage --branches 90 --functions 90 tape test/*.js",
     "standard": "standard",
     "test": "tape test/*.js | tap-dot"
